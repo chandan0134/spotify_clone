@@ -11,26 +11,31 @@ function App() {
 
         <div className="flex flex-row h-1/6  bg-[#121212] mt-3 ml-3">
           <div className="flex w-full flex-col">
-            <div className="flex w-full h-1/2 ">
-             <div className=" flex-row w-[20%] justify-center text-white"><MdHomeFilled /></div>
-             <div className=" flex-row w-[80%] justfy-cenetr text-white">Home</div>
+            <div className="flex h-1/2 justify-start py-2 ">
+             <div className=" flex-row  text-white text-3xl px-3"><MdHomeFilled /></div>
+             <div className=" flex-row   text-white text-2xl">Home</div>
             </div>
-            <div className="flex justify-start  h-1/2 ">
-             <div className="flex-row  text-white">< MdSearch/></div>
-             <div className=" flex-row  text-white">Search</div> 
+            <div className="flex   h-1/2 justify-start py-2">
+             <div className="flex-row  text-white text-3xl px-3">< MdSearch/></div>
+             <div className=" flex-row  text-white text-2xl">Search</div> 
              
             </div>
           </div>
         </div>
 
-        <div className="flex flex-row h-5/6 ml-3 mt-3  bg-[#121212]">
+        <div className="flex flex-row h-5/6 ml-3 mt-3  bg-[rgb(18,18,18)]">
           <div className="flex flex-col w-full ml-3 mr-3  bg-[#121212]">
             
             <div className="h-[10%] flex text-white">
-              <div className=" flex-row"><MdLibraryMusic /></div>
-              <div className=" flex-row">Your Library</div>
-              <div className=" flex-row"><FaPlus /></div>
-              <div className=" flex-row"><FaArrowRight /></div>
+             <div className="justify-start py-2 flex w-[70%]">
+              <div className=" flex-row text-3xl px-3"><MdLibraryMusic /></div>
+              <div className=" flex-row ">Your Library</div>
+              </div>
+
+              <div className="flex justify-end py-2 px-2 w-[30%]">
+                  <div className="flex-row text-2xl ml-2 px-3"><button><FaPlus /></button></div>
+                 <div className="flex-row text-2xl "><button><FaArrowRight /></button></div>
+              </div>
 
             </div>
 
@@ -42,7 +47,7 @@ function App() {
 
                <div className="w-[45%]">
                  <button className="bg-white w-full rounded-full px-2 py-1 ">
-                   <div className="text-black font-medium">create playlist</div>
+                   <div className="text-black font-bold">create playlist</div>
                  </button>
                  </div>
             </div>
@@ -54,7 +59,7 @@ function App() {
                </div>
                 <div className="w-[45%]">
                  <button className="bg-white w-full rounded-full px-2 py-1 ">
-                   <div className="text-black font-medium">Browse podcast</div>
+                   <div className="text-black font-bold">Browse podcast</div>
                  </button>
                  </div>
             </div>
