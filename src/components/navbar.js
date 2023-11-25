@@ -7,8 +7,8 @@ import { IoMdDownload } from "react-icons/io";
 
 function navbar() {
   return (
-    <div className=" flex bg-[#212121] ">
-        <div className="flex justify-start px-4 py-3 w-[60%]">
+    <div className=" w-full flex justify-between bg-[#212121] ">
+        <div className="flex justify-start px-4 py-3">
 
             <button className=" rounded-full px-3 bg-[#0A0A0A] m-2">
                 <div className="text-2xl flex justify-center font-bold">
@@ -24,9 +24,9 @@ function navbar() {
             
         </div>
 
-        <div className="flex justify-around   py-3 w-[40%]">
+        <div className="flex    py-3 ">
             <button className=" rounded-full bg-white  m-2">
-                <div className="px-3 font-bold  text-black">
+                <div className="px-3 font-bold text-sm lg:text-lg  text-black">
                  Explore Premium
                 </div>
             </button>

@@ -7,7 +7,7 @@ function sidebar() {
   return (
     <div className=" flex bg-black w-screen h-5/6">
 
-      <div className="  flex flex-col w-1/4 h-screen rounded-md bg-black" >
+      <div className=" fixed flex flex-col w-[40%] lg:w-1/4 h-screen rounded-md bg-black" >
 
         <div className="flex flex-row h-1/6  bg-[#121212] mt-3 ml-3">
           <div className="flex w-full flex-col">
