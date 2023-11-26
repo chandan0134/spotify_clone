@@ -5,7 +5,7 @@ import Page from "./page"
 
 function sidebar() {
   return (
-    <div className=" flex bg-black w-screen h-5/6">
+    <div className=" flex bg-black w-full h-5/6">
 
       <div className=" fixed flex flex-col w-[40%] lg:w-1/4 h-screen rounded-md bg-black" >
 
@@ -64,6 +64,9 @@ function sidebar() {
 
           </div>
         </div>
+        <div className="fixed bottom-0 w-full bg-black h-20 bg-red flex justify-center items-center">
+    
+    </div>
 
       </div>
 
