@@ -10,19 +10,19 @@ function playbutton() {
     <div className="fixed bottom-0 w-full bg-black h-20 bg-red flex items-center justify-content ml-20">
       <div className="py-5 flex justify-start  text-white">
         <div className="px-3 text-xl">
-          <RxShuffle />
+          <button><RxShuffle /></button>
         </div>
         <div className="px-3 text-2xl">
-          <IoPlaySkipBackSharp />
+          <button><IoPlaySkipBackSharp /></button>
         </div>
         <div className="px-3 text-3xl">
-          <IoIosPlayCircle />
+          <button><IoIosPlayCircle /></button>
         </div>
         <div className="px-3 text-2xl">
-          <IoPlaySkipForwardSharp />
+          <button><IoPlaySkipForwardSharp /></button>
         </div>
         <div className="px-3 text-2xl">
-          <TiArrowLoop />
+          <button><TiArrowLoop /></button>
         </div>
     
       </div>

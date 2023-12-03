@@ -12,12 +12,16 @@ function sidebar() {
         <div className="flex flex-row h-1/6  bg-[#121212] mt-3 ml-3">
           <div className="flex w-full flex-col">
             <div className="flex h-1/2 justify-start py-2 ">
+              <button className="flex">
              <div className=" flex-row  text-white text-3xl px-3"><MdHomeFilled /></div>
              <div className=" flex-row   text-white text-2xl">Home</div>
+             </button>
             </div>
             <div className="flex   h-1/2 justify-start py-2">
+              <button className="flex">
              <div className="flex-row  text-white text-3xl px-3">< MdSearch/></div>
              <div className=" flex-row  text-white text-2xl">Search</div> 
+             </button>
             </div>
           </div>
         </div>
@@ -26,8 +30,12 @@ function sidebar() {
           <div className="flex flex-col w-full ml-3 mr-3  bg-[#121212]">
             <div className="h-[10%] flex text-white">
              <div className="justify-start py-2 flex w-[70%]">
+              <button className="flex">
               <div className=" flex-row text-3xl px-3"><MdLibraryMusic /></div>
+              
               <div className=" flex-row ">Your Library</div>
+              </button>
+              
              </div>
              <div className="flex justify-end py-2 px-2 w-[30%]">
               <div className="flex-row text-2xl ml-2 px-3"><button><FaPlus /></button></div>
