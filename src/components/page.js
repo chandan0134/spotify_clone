@@ -10,6 +10,7 @@ import { useState } from 'react';
 function Page() {
   const [hoveredCard, setHoveredCard] = useState(null);
   const [hoverPodcast,sethoverPodcast]=useState(null);
+   const [currentSong, setCurrentSong] = useState(null);
 
    const songs = [
     {
@@ -80,7 +81,7 @@ function Page() {
                  onMouseEnter={() => setHoveredCard(index)}
                  onMouseLeave={() => setHoveredCard(null)}
                  style={{
-                   backgroundColor: hoveredCard === index ? '#1F2937' : '#444',
+                   backgroundColor: hoveredCard === index ? '#1F2937' : '#000',
                  }}
                  >
                  <img
